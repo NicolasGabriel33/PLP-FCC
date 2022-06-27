@@ -1,0 +1,193 @@
+#nav-bar {
+  position: absolute;
+  display: grid;
+  top: 0;
+  right: 10;
+  font-size: 2rem;
+  text-align: right;
+  border-left: 4px double #250145;
+  height:100%;
+  background: #4d068c;
+  
+}
+.nav-link {
+  color: #14d106;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.nav-link{
+  margin: 0;
+  width: 100%;
+  text-decoration: none;
+  border-bottom: 2px solid #250145;
+}
+#nav-bar a:hover {
+  color: #250145;
+  background: #14d106;
+  text-align: left;
+  
+}
+#header a:last-child{
+  border-bottom: 0;
+}
+#header-img {
+  display: block;
+  width: 120px;
+  border-right: 1px solid #250145;
+}
+h1 {
+  position: relative;
+  display:block;
+  top: -85;
+  margin: auto;
+  width: calc(100%/3) ;
+  overflow-x: hidden;
+}
+#header {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  color: #14d106;
+  background: #4d068c;
+  width:100%;
+  height: 122;
+  border-bottom: 5px solid #250145;
+}
+body {
+  padding-top: 110px;
+  text-align: center;
+  background: #3e14ba;
+}
+
+.section-title{
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin:20 0 20;
+}
+
+.content {
+  font-size: 1.2rem;
+  text-align: justify;
+  margin: 0 20 15 20;
+}
+
+#video {
+  width: 90%;
+  height: 90%;
+}
+
+body div {
+  border: 2px double #250145;
+  list-style: inside;
+  margin-bottom: 10px;
+}
+#Guide { 
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+ul, ol {
+  list-style-position: inside;
+  font-size: 1.2rem;
+  text-align: center;
+}
+#Preparation {
+    padding: 20;
+}
+#Example {
+  margin-bottom: 0px;
+}
+#Recipe{
+  border:none;
+}
+#Newsletter {
+  margin-bottom: 50px;
+}
+#email, #submit {
+  font-size: 1rem;
+  border-radius: 5px;
+}
+#email{
+  background: #19002e;
+  width: 250px;
+}
+
+#email::placeholder{
+  color: #0fab03;
+}
+
+footer{
+  position: absolute;
+  display: block;
+  background: #240963;
+  width: 100%;
+  left: 0;
+}
+
+a {
+  color: #14d106;
+  text-decoration: none;
+}
+
+a:hover{
+  background: #14d106;
+  color: #250145;
+}
+
+
+@media (min-width: 768px){
+  .section-title {
+    margin-top: 40px;
+  }
+
+#video {
+  width: 50%;
+  height: 100%;
+}
+
+  #Recipe {
+    display: flex;
+    flex-direction: row;
+  }
+  #Ingredients {
+    margin:10px;
+    padding-right:50px;
+  }
+  #Preparation {
+    margin:10px;
+    padding-right:50px;
+  }
+  #Example {
+    margin:10px;
+    padding-right:0px;
+  }
+  .content{
+    text-align: center;
+  }
+
+}
+#header
+#header-img
+/*h1 é o titulo do site
+
+anchor
+body
+.section-title
+.content ok
+#Intro
+#video
+#Guide <~flex
+#Ingredients(div)
+ul
+#Preparation(div)
+ol
+#example (div)
+#Newsletter
+#form
+#email
+#submit
+footer
+#p-footer */
